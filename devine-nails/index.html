@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Devine Nails — Amsterdam Zuidoost</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a class="nav__logo" href="#hero">Devine Nails</a>
+    <button class="nav__toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#services">Diensten</a></li>
+      <li><a href="#about">Over ons</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact" class="nav__cta">Boek nu</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <div class="hero__blob hero__blob--1"></div>
+      <div class="hero__blob hero__blob--2"></div>
+      <div class="hero__blob hero__blob--3"></div>
+      <div class="hero__particles" id="particles"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__tagline reveal">Amsterdam Zuidoost</p>
+      <h1 class="hero__title reveal reveal--delay-1">
+        <span>Devine</span>
+        <em>Nails</em>
+      </h1>
+      <p class="hero__sub reveal reveal--delay-2">Manicure · Acryl · Gel · Nail Art · Pedicure</p>
+      <div class="hero__actions reveal reveal--delay-3">
+        <a href="#contact" class="btn btn--primary">Maak een afspraak</a>
+        <a href="#services" class="btn btn--ghost">Bekijk diensten</a>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <div class="hero__scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- STRIP -->
+  <div class="strip">
+    <div class="strip__track">
+      <span>Manicure</span><span class="dot">✦</span>
+      <span>Acryl Nagels</span><span class="dot">✦</span>
+      <span>Gel Nagels</span><span class="dot">✦</span>
+      <span>Nail Art</span><span class="dot">✦</span>
+      <span>Pedicure</span><span class="dot">✦</span>
+      <span>BIAB</span><span class="dot">✦</span>
+      <span>Ombre</span><span class="dot">✦</span>
+      <span>French Manicure</span><span class="dot">✦</span>
+      <span>Manicure</span><span class="dot">✦</span>
+      <span>Acryl Nagels</span><span class="dot">✦</span>
+      <span>Gel Nagels</span><span class="dot">✦</span>
+      <span>Nail Art</span><span class="dot">✦</span>
+      <span>Pedicure</span><span class="dot">✦</span>
+      <span>BIAB</span><span class="dot">✦</span>
+      <span>Ombre</span><span class="dot">✦</span>
+      <span>French Manicure</span><span class="dot">✦</span>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__label reveal">Wat wij bieden</p>
+        <h2 class="section__title reveal reveal--delay-1">Onze <em>Diensten</em></h2>
+      </div>
+      <div class="services__grid">
+
+        <div class="service-card reveal">
+          <div class="service-card__icon">💅</div>
+          <h3>Manicure</h3>
+          <p>Klassieke manicure inclusief nagelvijlen, nagelriemverzorging en lakken naar keuze.</p>
+          <div class="service-card__price">vanaf €20</div>
+        </div>
+
+        <div class="service-card reveal reveal--delay-1">
+          <div class="service-card__icon">✨</div>
+          <h3>Acryl Nagels</h3>
+          <p>Sterke en langdurige acryl nagels in elke gewenste lengte en vorm — perfect voor nail art.</p>
+          <div class="service-card__price">vanaf €45</div>
+        </div>
+
+        <div class="service-card reveal reveal--delay-2">
+          <div class="service-card__icon">💎</div>
+          <h3>Gel Nagels</h3>
+          <p>Gellak en gelnagels voor een stralend resultaat dat weken meegaat zonder chipping.</p>
+          <div class="service-card__price">vanaf €35</div>
+        </div>
+
+        <div class="service-card reveal reveal--delay-3">
+          <div class="service-card__icon">🎨</div>
+          <h3>Nail Art</h3>
+          <p>Van subtiele lijntjes tot volledige kunstwerken — elke nail art wordt met precisie uitgevoerd.</p>
+          <div class="service-card__price">op aanvraag</div>
+        </div>
+
+        <div class="service-card reveal reveal--delay-1">
+          <div class="service-card__icon">🌸</div>
+          <h3>Pedicure</h3>
+          <p>Volledige voetverzorging inclusief eeltverwijdering, massagebehandeling en lakken.</p>
+          <div class="service-card__price">vanaf €30</div>
+        </div>
+
+        <div class="service-card reveal reveal--delay-2">
+          <div class="service-card__icon">🌈</div>
+          <h3>Ombre & French</h3>
+          <p>Tijdloze French manicure of een vloeiende ombre — klassiek of modern, jij kiest.</p>
+          <div class="service-card__price">vanaf €40</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="container about__container">
+      <div class="about__visual reveal">
+        <div class="about__visual-inner">
+          <div class="about__shape about__shape--1"></div>
+          <div class="about__shape about__shape--2"></div>
+          <div class="about__img-placeholder">
+            <span>✦</span>
+            <p>Devine Nails</p>
+          </div>
+        </div>
+        <div class="about__badge">
+          <span class="about__badge-number">5+</span>
+          <span class="about__badge-label">jaar ervaring</span>
+        </div>
+      </div>
+      <div class="about__text">
+        <p class="section__label reveal">Over ons</p>
+        <h2 class="section__title reveal reveal--delay-1">Vakmanschap <em>ontmoet</em> creativiteit</h2>
+        <p class="reveal reveal--delay-2">Bij Devine Nails in Amsterdam Zuidoost draait alles om kwaliteit, creativiteit en jouw welbevinden. Wij zorgen ervoor dat jij je studio verlaat met nagels die een statement maken.</p>
+        <p class="reveal reveal--delay-3">Of je nu komt voor een simpele manicure of een uitgebreide nail art sessie — wij nemen de tijd voor jou en luisteren naar jouw wensen.</p>
+        <ul class="about__list reveal reveal--delay-3">
+          <li>✦ Hygiënisch en veilig werken</li>
+          <li>✦ Hoge kwaliteit materialen</li>
+          <li>✦ Ontspannen sfeer</li>
+          <li>✦ Altijd persoonlijk advies</li>
+        </ul>
+        <a href="#contact" class="btn btn--primary reveal reveal--delay-3">Plan een afspraak</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__label reveal">Ons werk</p>
+        <h2 class="section__title reveal reveal--delay-1">Nail Art <em>Gallery</em></h2>
+      </div>
+      <div class="gallery__grid">
+        <div class="gallery__item gallery__item--tall reveal">
+          <div class="gallery__placeholder" style="--c1:#f9c6d0;--c2:#e8a0b0">
+            <span>💅</span>
+          </div>
+        </div>
+        <div class="gallery__item reveal reveal--delay-1">
+          <div class="gallery__placeholder" style="--c1:#c9b8f0;--c2:#a990e0">
+            <span>✨</span>
+          </div>
+        </div>
+        <div class="gallery__item reveal reveal--delay-2">
+          <div class="gallery__placeholder" style="--c1:#b8e0f9;--c2:#90c8e8">
+            <span>💎</span>
+          </div>
+        </div>
+        <div class="gallery__item gallery__item--wide reveal reveal--delay-1">
+          <div class="gallery__placeholder" style="--c1:#f9e4b8;--c2:#e8c890">
+            <span>🌸</span>
+          </div>
+        </div>
+        <div class="gallery__item reveal reveal--delay-2">
+          <div class="gallery__placeholder" style="--c1:#b8f9d4;--c2:#90e8bc">
+            <span>🎨</span>
+          </div>
+        </div>
+        <div class="gallery__item reveal reveal--delay-3">
+          <div class="gallery__placeholder" style="--c1:#f9b8d4;--c2:#e890b8">
+            <span>🌈</span>
+          </div>
+        </div>
+      </div>
+      <p class="gallery__insta reveal">
+        Volg ons op Instagram
+        <a href="https://www.instagram.com/dn.devinenails/" target="_blank" rel="noopener">@dn.devinenails</a>
+        voor meer inspiratie ✦
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="container contact__container">
+      <div class="contact__info reveal">
+        <p class="section__label">Bezoek ons</p>
+        <h2 class="section__title">Kom <em>langs</em></h2>
+        <ul class="contact__details">
+          <li>
+            <span class="contact__icon">📍</span>
+            <div>
+              <strong>Adres</strong>
+              <p>Heesterveld 1<br />1102 SB Amsterdam Zuidoost</p>
+            </div>
+          </li>
+          <li>
+            <span class="contact__icon">📞</span>
+            <div>
+              <strong>Telefoon</strong>
+              <p><a href="tel:+31615636448">06 15636448</a></p>
+            </div>
+          </li>
+          <li>
+            <span class="contact__icon">📸</span>
+            <div>
+              <strong>Instagram</strong>
+              <p><a href="https://www.instagram.com/dn.devinenails/" target="_blank" rel="noopener">@dn.devinenails</a></p>
+            </div>
+          </li>
+          <li>
+            <span class="contact__icon">🕐</span>
+            <div>
+              <strong>Openingstijden</strong>
+              <p>Ma – Za: 10:00 – 19:00<br />Zondag: op afspraak</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="contact__form reveal reveal--delay-2">
+        <h3>Stuur ons een bericht</h3>
+        <form id="contactForm">
+          <div class="form__group">
+            <input type="text" id="name" placeholder=" " required />
+            <label for="name">Jouw naam</label>
+          </div>
+          <div class="form__group">
+            <input type="tel" id="phone" placeholder=" " />
+            <label for="phone">Telefoonnummer</label>
+          </div>
+          <div class="form__group">
+            <select id="service">
+              <option value="" disabled selected></option>
+              <option value="manicure">Manicure</option>
+              <option value="acryl">Acryl Nagels</option>
+              <option value="gel">Gel Nagels</option>
+              <option value="nail-art">Nail Art</option>
+              <option value="pedicure">Pedicure</option>
+              <option value="ombre">Ombre / French</option>
+            </select>
+            <label for="service">Gewenste dienst</label>
+          </div>
+          <div class="form__group">
+            <textarea id="message" placeholder=" " rows="4"></textarea>
+            <label for="message">Bericht (optioneel)</label>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Verstuur bericht ✦</button>
+          <p class="form__note">Of bel direct: <a href="tel:+31615636448">06 15636448</a></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="footer__logo">Devine Nails</span>
+        <p>Heesterveld 1, Amsterdam Zuidoost</p>
+      </div>
+      <div class="footer__links">
+        <a href="#services">Diensten</a>
+        <a href="#about">Over ons</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer__social">
+        <a href="https://www.instagram.com/dn.devinenails/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a href="tel:+31615636448" aria-label="Bel ons">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.07 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3 1.5h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 17z"/></svg>
+        </a>
+      </div>
+    </div>
+    <p class="footer__copy">© 2026 Devine Nails — Amsterdam Zuidoost</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
